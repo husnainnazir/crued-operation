@@ -1,0 +1,133 @@
+body {
+  display: flex;
+  flex-direction: row;
+}
+
+.in-puts {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.in-puts input {
+  width: 50%;
+  height: 40px;
+  margin-bottom: 10px;
+  background: silver;
+  border-radius: 12px;
+  border: none;
+  padding-left: 10px;
+}
+
+button {
+  width: 30%;
+  margin-top: 34px;
+  margin-bottom: -22px;
+  padding: 10px;
+  background: linear-gradient(90deg, skyblue, red);
+  border: none;
+  border-radius: 10px;
+  color: bisque;
+  font-size: 16px;
+  cursor: pointer;
+}
+button:hover {
+  box-shadow: 5px 5px 10px #0000008f;
+}
+
+.data_a {
+  width: 50%;
+}
+
+.styled-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.styled-table thead th {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+}
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+    border: 1px solid #009879;
+    text-align: center  ;
+}
+.styled-table tbody th {
+  border-bottom: 1px solid #dddddd;
+
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+.styled-table tbody tr.active-row {
+  font-weight: bold;
+  color: #009879;
+}
+.styled-table tr:hover{
+  background-color: #0000008f;
+  color: white;
+}
+#color {
+  color: blue;
+  margin-right: 10px;
+}
+
+#color-a {
+  color: red;
+}
+
+.radio-input {
+  width: 62%;
+  height: 30px;
+  display: flex;
+  margin-bottom: 15px;
+  justify-content: start;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.radio-1{
+  width: 30%;
+  height: 20px;
+  margin: 0;
+}
+
+.radio {
+  width: 30%;
+  height: 30px;
+  margin-top: 10px;
+}
+.ge{
+  margin-left: 35px;
+}
+.radio input {
+  width: 30%;
+  height: 16px;
+}
+.put{
+  width: 70%;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+select{
+  width: 52%;
+  height: 40px;
+  border-radius: 10px;
+  background: #999;
+  color: aliceblue;
+  font-size: 18px;
+}
